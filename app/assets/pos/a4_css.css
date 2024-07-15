@@ -1,0 +1,166 @@
+#A4 {
+    /* box-shadow: 0 0 1in -0.25in rgba(0, 0, 0, 0.5); */
+    padding: 1mm;
+    margin: 0 auto;
+    /* width: 65mm; */
+}
+
+body .A4 {
+    font-family: 'Segoe UI Black';
+    /* font-family: 'Arial Black'; */
+    /* font-family: 'Tahoma'; */
+    /* font-weight: bolder; */
+    color: #000;
+}
+
+#A4 ::selection {
+    background: #f31544;
+    color: #FFF;
+}
+
+#A4 ::moz-selection {
+    background: #f31544;
+    color: #FFF;
+}
+
+#A4 h1 {
+    font-size: 1.5em;
+    /* color: #222; */
+}
+
+#A4 h2 {
+    /* font-size: .9em; */
+    /* margin-bottom: -1px; */
+}
+
+#A4 h3 {
+    font-size: 1.2em;
+    /* font-weight: 900000; */
+    line-height: 2em;
+}
+
+h3 {
+    font-weight: bolder;
+}
+
+#A4 p {
+    /* font-size: .6em; */
+}
+
+#A4 #top,
+#A4 #mid,
+#A4 #bot {
+    /* Targets all id with 'col-' */
+    border-bottom: 1px solid #000;
+}
+
+#A4 #top {
+    min-height: 100px;
+}
+
+#A4 #mid {
+    min-height: 50px;
+}
+
+#A4 #bot {
+    min-height: 50px;
+}
+
+#A4 #top .logo {
+    height: 60px;
+    width: 60px;
+    background: url(http://michaeltruong.ca/images/logo1.png) no-repeat;
+    background-size: 60px 60px;
+}
+
+#A4 .clientlogo {
+    float: left;
+    height: 60px;
+    width: 60px;
+    background: url(http://michaeltruong.ca/images/client.jpg) no-repeat;
+    background-size: 60px 60px;
+    border-radius: 50px;
+}
+
+#A4 .info {
+    display: block;
+    margin-left: 0;
+    /* font-size: px; */
+}
+
+#A4 .inv-title {
+    font-size: 2em;
+}
+
+#A4 .info1 {
+    font-size: 1.2em;
+}
+
+#A4 .info2 {
+    font-size: 1.2em;
+}
+
+#A4 .inv-section-2 {
+    font-size: 1.2em;
+}
+
+#A4 .title {
+    float: right;
+}
+
+#A4 .title p {
+    text-align: right;
+}
+
+#A4 table,
+td {
+    width: 100%;
+    /* border-collapse: collapse; */
+    border: 0.1px rgb(0, 0, 0) solid;
+    padding-top: 0px;
+    padding-bottom: -20px;
+}
+
+td.tableitem p,
+h3 {
+    /* background-color: red; */
+    /* padding:-20px; */
+    margin: 0px;
+}
+
+td {
+    padding-left: 3px;
+    padding-right: 30px;
+    padding-top: 0px;
+    padding-bottom: -20px;
+}
+
+#A4 td {
+    padding-left: 3px;
+    padding-right: 3px;
+    /* padding-top: 0px;
+    padding-bottom: -20px; */
+}
+
+#A4 .tabletitle {
+    font-size: 1em;
+    background: rgb(245, 245, 245);
+    /* background: rgb(245, 245, 245); */
+}
+
+#A4 .service {
+    border-bottom: 1px solid #000;
+    font-size: 1.2em;
+}
+
+#A4 .item {
+    width: 24mm;
+}
+
+#A4 .itemtext {
+    font-size: 1em;
+}
+
+#A4 #legalcopy {
+    margin-top: 5mm;
+}
